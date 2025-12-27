@@ -1,0 +1,26 @@
+================================================================================
+Processing file: Sample File.pkcls
+================================================================================
+
+Type of loaded object: <class 'Orange.regression.base_regression.SklModelRegression'>
+
+Orange wrapper attributes:
+Model name: Gradient Boosting
+Orange wrapper params: {'loss': 'squared_error', 'learning_rate': 0.1, 'n_estimators': 100, 'subsample': 1, 'criterion': 'friedman_mse', 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.0, 'max_depth': 3, 'min_impurity_decrease': 0.0, 'init': None, 'random_state': 0, 'max_features': None, 'alpha': 0.9, 'verbose': 0, 'max_leaf_nodes': None, 'warm_start': False, 'validation_fraction': 0.1, 'n_iter_no_change': None, 'tol': 0.0001, 'ccp_alpha': 0.0}
+Original training data: None
+
+Underlying scikit-learn model:
+GradientBoostingRegressor(random_state=0, subsample=1)
+
+Model hyperparameters:
+{'alpha': 0.9, 'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 0, 'subsample': 1, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+
+Feature importances:
+[0.2298857  0.13736661 0.27829086 0.21129836 0.1337071  0.00124538
+ 0.00233976 0.00199166 0.00349685 0.00037772]
+
+Number of estimators (trees):
+100
+
+
+
